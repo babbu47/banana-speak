@@ -1,7 +1,7 @@
-var bittranslate=document.querySelector("#bit-translate");
+var btntranslate=document.querySelector("#btn-translate");
 
-function clickname()
+function clickhandler()
 {
-    console.log("clicked");
+    console.log("clicked!");
 }
-bittranslate.addEventListener("click",clickname);
+btntranslate.addEventListener("click",clickhandler);
