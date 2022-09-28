@@ -1,6 +1,7 @@
-console.log("hey welcome")
+var bittranslate=document.querySelector("#bit-translate");
 
-var username=prompt("what is your name?")
-var welomemessage="this script is "+ username;
-
-alert("welcomemessage")
+function clickname()
+{
+    console.log("clicked");
+}
+bittranslate.addEventListener("click",clickname);
