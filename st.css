@@ -12,3 +12,10 @@ textarea{
  margin:1rem;
  padding:1rem;
  }
+
+
+ #btn-translate{
+    display: block;
+    margin: 0 auto;
+  }
+ 
