@@ -17,5 +17,11 @@ textarea{
  #btn-translate{
     display: block;
     margin: 0 auto;
+    background-color: #facc15;
+    color:white;
+  height:10vh;
+  width:30vh;
+    border: 2px solid ;
+    font-size:large
   }
  
