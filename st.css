@@ -1,16 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
+body{
+  font-family: 'Dancing Script', cursive;
+}
+
 textarea{
     width:80%;
-     height:10vh;
+    padding-top: 2rem;
+     font-size: larger;
+     font-family: 'Dancing Script', cursive;
+     min-height:7rem;
      display:block;
-     margin:1rem;
-     padding:1rem;
+     margin:0 auto;
  }
  #output{
+  text-align: center;
  border: 1px solid black;
- height: 10vh;
+ min-height: 7rem;
  width:80%;
- margin:1rem;
+ margin:0 auto ;
  padding:1rem;
+ font-size:larger;
  }
 
 
@@ -20,8 +30,38 @@ textarea{
     background-color: #facc15;
     color:white;
   height:10vh;
-  width:30vh;
+  width:20vh;
     border: 2px solid ;
     font-size:large
   }
- 
+ .op{
+  font-size: larger;
+  padding-left: 1rem;
+ }
+ .kela{
+  font-size: 2rem;
+  padding: 1rem;
+  max-width:180em;
+   margin:0px;
+  text-align:center;
+  
+  background-color:#facc15 ;
+  
+ }
+ .footer{
+  background-color:#facc15;
+  text-align:center;
+  width:100%
+ }
+ .footer-heading{
+  font-size:larger
+ }
+ .footer p{
+  display:inline;
+ }
+ .container{
+  font-size:larger;
+  margin:0 auto;
+  max-width:50vh;
+  padding:2rem;
+ }
