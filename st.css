@@ -26,17 +26,18 @@ textarea{
 
  #btn-translate{
     display: block;
-    margin: 0 auto;
+    margin: 0.5rem auto;
     background-color: #facc15;
     color:white;
   height:10vh;
   width:20vh;
     border: 2px solid ;
-    font-size:large
+    font-size:large;
+    
   }
  .op{
   font-size: larger;
-  padding-left: 1rem;
+  padding-left: 8rem;
  }
  .kela{
   font-size: 2rem;
@@ -65,3 +66,4 @@ textarea{
   max-width:50vh;
   padding:2rem;
  }
+ 
