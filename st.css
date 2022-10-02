@@ -2,64 +2,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
 body{
   font-family: 'Dancing Script', cursive;
+  margin: 0;
 }
 
 textarea{
     width:80%;
     padding-top: 2rem;
-     font-size: larger;
-     font-family: 'Dancing Script', cursive;
-     min-height:7rem;
-     display:block;
-     margin:0 auto;
- }
- #output{
-  text-align: center;
- border: 1px solid black;
- min-height: 7rem;
- width:80%;
- margin:0 auto ;
- padding:1rem;
- font-size:larger;
+    font-size: larger;
+    font-family: 'Dancing Script', cursive;
+    min-height:7rem;
+    display:block;
+    margin:1rem auto;
  }
 
+ #output{
+  text-align: center;
+  border: 1px solid black;
+  min-height: 7rem;
+  width:80%;
+  margin:0 auto ;
+  padding:1rem;
+  font-size:larger;
+ }
 
  #btn-translate{
     display: block;
     margin: 0.5rem auto;
     background-color: #facc15;
     color:white;
-  height:10vh;
-  width:20vh;
+    height:10vh;
+    width:20vh;
     border: 2px solid ;
-    font-size:large;
-    
+    font-size:large;   
   }
+
  .op{
   font-size: larger;
-  padding-left: 8rem;
+  text-align: center;
  }
+
  .kela{
   font-size: 2rem;
   padding: 1rem;
   max-width:180em;
-   margin:0px;
+  margin:0px;
   text-align:center;
-  
-  background-color:#facc15 ;
-  
+  background-color:#facc15;
  }
+
  .footer{
   background-color:#facc15;
   text-align:center;
-  width:100%
+  width:100%;
+  margin-top: 1rem;
  }
+
  .footer-heading{
   font-size:larger
  }
+
  .footer p{
   display:inline;
  }
+
  .container{
   font-size:larger;
   margin:0 auto;
