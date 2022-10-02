@@ -6,8 +6,9 @@ body{
 }
 
 textarea{
+    box-sizing: border-box;
     width:80%;
-    padding-top: 2rem;
+    padding: 8px;
     font-size: larger;
     font-family: 'Dancing Script', cursive;
     min-height:7rem;
@@ -16,7 +17,8 @@ textarea{
  }
 
  #output{
-  text-align: center;
+  box-sizing: border-box;
+  
   border: 1px solid black;
   min-height: 7rem;
   width:80%;
@@ -51,6 +53,8 @@ textarea{
  }
 
  .footer{
+  position: fixed;
+  bottom: 0;
   background-color:#facc15;
   text-align:center;
   width:100%;
