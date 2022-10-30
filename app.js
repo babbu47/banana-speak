@@ -11,7 +11,6 @@ function constructurl(tt)
 
 function errorhandler(error)
 {
-    console.log("error occured",error);
     alert("something wrong with server ");
 }
 
